@@ -1,27 +1,23 @@
----
-title: Rust Rocket
-description: A Rocket webserver
-tags:
-  - rust
-  - rocket
----
-
-# Rust Rocket Example
+# Rust Rocket webserver
 
 This example is a [Rocket](https://rocket.rs) web server
+Servidor web o api de tareas con autenticación y token de autorización tipo **JWT** con [Rocket](https://rocket.rs) y [Diesel](https://diesel.rs/) como ORM usando postgreSQL como base de datos relacional.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/soL3yG)
+<!-- [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/soL3yG) -->
 
-## ✨ Features
+## ✨ Características: 
 
 - Rust
 - Rocket
+- Diesel
+- Uuid
 
-## 💁‍♀️ How to use
+## 💁‍♀️ Cómo usar
 
-- Run the server `cargo run`
+- Crear el código sql de las tablas en el archivo up.sql
+- Crear las tablas para la base de datos con `diesel migration run`
+- Ejecutar el servidor con `cargo run`
 
-## 📝 Notes
+## 📝 Notas
 
-By default, the Rocket server is started in staging mode. You can start in
-production mode by changing `ROCKET_ENV` in the `Dockerfile`.
+De forma predeterminada, el servidor Rocket se inicia en modo de ensayo. Puede comenzar en el modo de producción cambiando `ROCKET_ENV` en el `Dockerfile`.
