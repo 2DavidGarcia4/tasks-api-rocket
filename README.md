@@ -1,6 +1,5 @@
 # Rust Rocket webserver
 
-This example is a [Rocket](https://rocket.rs) web server
 Servidor web o api de tareas con autenticación y token de autorización tipo **JWT** con [Rocket](https://rocket.rs) y [Diesel](https://diesel.rs/) como ORM usando postgreSQL como base de datos relacional.
 
 <!-- [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/soL3yG) -->
